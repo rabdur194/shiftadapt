@@ -1,0 +1,12 @@
+[
+  {"id": "new_1", "text": "Hey, this is your bank's fraud team calling via WhatsApp. We need you to move funds to a safe account right now using this crypto wallet.", "label": "scam", "domain": "new"},
+  {"id": "new_2", "text": "Remote job offer: $45/hr data entry. Send $30 for software license and start today. Payment via gift cards only.", "label": "scam", "domain": "new"},
+  {"id": "new_3", "text": "Your iCloud storage is full. Account will be deleted in 12 hours unless you verify at apple-id-secure-check.com", "label": "scam", "domain": "new"},
+  {"id": "new_4", "text": "AI voice clone of your son: Mom I'm in trouble, need bail money sent to this CashApp immediately.", "label": "scam", "domain": "new"},
+  {"id": "new_5", "text": "Tax refund adjustment notice. IRS requires verification of SSN via this secure portal within 48 hours.", "label": "scam", "domain": "new"},
+  {"id": "new_6", "text": "Chase: Mobile deposit of $210.00 is available. View details in the Chase Mobile app.", "label": "safe", "domain": "new"},
+  {"id": "new_7", "text": "Your Uber trip receipt: $18.40 on Main St. Rate your driver in the Uber app.", "label": "safe", "domain": "new"},
+  {"id": "new_8", "text": "Google: New sign-in on Windows device in Austin, TX. If this was you, no action needed.", "label": "safe", "domain": "new"},
+  {"id": "new_9", "text": "Crypto airdrop: Claim 2.5 ETH free. Connect wallet and pay small gas fee on this site.", "label": "scam", "domain": "new"},
+  {"id": "new_10", "text": "LinkedIn: You appeared in 14 searches this week. See who viewed your profile in the app.", "label": "safe", "domain": "new"}
+]

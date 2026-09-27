@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  shiftadapt:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - USE_MOCK_LLM=${USE_MOCK_LLM:-true}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - OPENAI_MODEL=${OPENAI_MODEL:-gpt-4o-mini}
+      - SHIFT_THRESHOLD=${SHIFT_THRESHOLD:-0.25}
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-sentence-transformers/all-MiniLM-L6-v2}
+    volumes:
+      - ./data:/app/data
+      - ./artifacts:/app/artifacts
+    restart: unless-stopped

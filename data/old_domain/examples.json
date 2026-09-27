@@ -1,0 +1,12 @@
+[
+  {"id": "old_1", "text": "Your account will be suspended in 24 hours. Click here to verify: http://secure-bank-login.com", "label": "scam", "domain": "old"},
+  {"id": "old_2", "text": "Congratulations! You won a lottery prize of $10000. Pay processing fee to claim.", "label": "scam", "domain": "old"},
+  {"id": "old_3", "text": "Dear customer, unusual activity detected on your card. Call this number immediately.", "label": "scam", "domain": "old"},
+  {"id": "old_4", "text": "Your package is held at customs. Pay $2.99 delivery fee via this link.", "label": "scam", "domain": "old"},
+  {"id": "old_5", "text": "SBI: Rs 1500 debited from A/c XX4521 on 12-Jan. If not you, call official helpline.", "label": "safe", "domain": "old"},
+  {"id": "old_6", "text": "Your OTP for login is 482913. Do not share with anyone. Valid for 5 minutes.", "label": "safe", "domain": "old"},
+  {"id": "old_7", "text": "Amazon: Your order #123-456 has been shipped. Track in the official Amazon app.", "label": "safe", "domain": "old"},
+  {"id": "old_8", "text": "Bank of America: Scheduled payment of $45.00 processed successfully on 10-Jan.", "label": "safe", "domain": "old"},
+  {"id": "old_9", "text": "Urgent KYC update required. Your account will be blocked. Submit documents at http://kyc-update-now.net", "label": "scam", "domain": "old"},
+  {"id": "old_10", "text": "You have a pending refund of $320. Confirm bank details here to receive it.", "label": "scam", "domain": "old"}
+]

@@ -1,0 +1,7 @@
+[
+  {"id": "adapt_1", "text": "Fraud department here. Transfer your balance to this temporary safe wallet address to protect against hackers.", "label": "scam", "domain": "new"},
+  {"id": "adapt_2", "text": "High-paying remote role available. Pay $25 activation fee with Steam cards then start earning.", "label": "scam", "domain": "new"},
+  {"id": "adapt_3", "text": "Family emergency voice message: I need money wired to this account within the hour.", "label": "scam", "domain": "new"},
+  {"id": "adapt_4", "text": "Your package requires additional customs clearance payment of $4.50 via the link provided.", "label": "scam", "domain": "new"},
+  {"id": "adapt_5", "text": "Official notice: Confirm your identity for tax processing at the government verification portal.", "label": "scam", "domain": "new"}
+]
