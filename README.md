@@ -1,3 +1,5 @@
+**Live Demo:** https://shiftadapt-production.up.railway.app/
+
 # ShiftAdapt
 
 **Data-Efficient and Reliable Adaptation of Pretrained/Foundation Models Under Distribution Shift**
@@ -74,48 +76,6 @@ shiftadapt/
 ├── Dockerfile
 ├── docker-compose.yml
 └── .github/workflows/ci.yml
-```
-
----
-
-## How it maps to the research proposal
-
-| Research concept | How this project shows it |
-|------------------|---------------------------|
-| Pretrained / foundation model | `sentence-transformers` embeddings (+ optional LLM) |
-| Distribution shift | Centroid distance between old vs new embeddings |
-| Data-efficient adaptation | Add only a few labeled examples to the knowledge base |
-| Reliability | Accuracy + confidence before vs after adaptation |
-| RAG | Retrieval-augmented generation for grounded answers |
-
----
-
-## Design choices (Level A)
-
-- **No full fine-tuning / LoRA** — keeps the prototype simple and focused
-- **Knowledge-base update** as the adaptation method — practical and data-efficient
-- **Mock LLM mode** — works without an API key for demos and CI
-- **Clear before/after metrics** — easy to explain to a professor or interviewer
-
-### Room to grow (future work)
-
-- Stronger drift detectors (MMD, energy distance)
-- Calibration metrics (ECE)
-- RAGAS faithfulness evaluation
-- Parameter-efficient fine-tuning (LoRA) as a second adaptation path
-- Active selection of which examples to add
-
----
-
-## API key (optional)
-
-By default the app uses a **mock LLM** so it runs offline.
-
-To use a real LLM:
-
-```bash
-export OPENAI_API_KEY=sk-...
-export USE_MOCK_LLM=false
 ```
 
 ---
