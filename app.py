@@ -98,14 +98,5 @@ with tab3:
 5. **Data-efficient adaptation** — adds only a few new labeled examples to the knowledge base (no full retraining).
 6. **Reliability** — measures accuracy and confidence before vs after adaptation.
 
-### Research alignment
 
-Supports the proposal: *Data-Efficient and Reliable Adaptation of Pretrained/Foundation Models Under Distribution Shift*.
-
-### Room to grow
-
-- Better drift metrics (MMD, energy distance)
-- Calibration (ECE)
-- RAGAS faithfulness evaluation
-- Parameter-efficient fine-tuning (LoRA) as a second adaptation method
 """)
